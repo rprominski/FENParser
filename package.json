@@ -1,0 +1,21 @@
+{
+	"name": "fenparser",
+	"version": "1.0.0",
+	"description": "Parser for position in checkers",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "tsc && node bin/src/index.js"
+	},
+	"keywords": [
+		"FEN",
+		"parser",
+		"checkers"
+	],
+	"author": "Rafał Prominski",
+	"license": "ISC",
+	"devDependencies": {
+		"neverthrow": "^2.7.1",
+		"typescript": "^4.0.3"
+	}
+}
