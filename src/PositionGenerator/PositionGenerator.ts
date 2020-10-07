@@ -2,12 +2,7 @@ import Piece from '../Piece/Piece';
 import { PieceType } from '../Piece/PieceType';
 import { PieceColor } from '../Piece/PieceColor';
 
-export default class PositionParser {
-
-    constructor() {
-
-    }
-
+export default class PositionGenerator {
     getNewPosition(size: number) {
         let position: Piece[][] = [];
 

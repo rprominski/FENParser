@@ -1,7 +1,7 @@
 {
-	"name": "fenparser",
+	"name": "checkers-utils",
 	"version": "1.0.0",
-	"description": "Parser for position in checkers",
+	"description": "Utility classes for writing checkers game",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -10,12 +10,13 @@
 	"keywords": [
 		"FEN",
 		"parser",
-		"checkers"
+		"checkers",
+		"generator",
+		"piece"
 	],
 	"author": "Rafał Prominski",
 	"license": "ISC",
 	"devDependencies": {
-		"neverthrow": "^2.7.1",
 		"typescript": "^4.0.3"
 	}
 }
